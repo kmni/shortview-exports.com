@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^shortviewexport.com
+RewriteRule (.*) http://www.shortviewexport.com/$1 [R=301,L]
+ErrorDocument 404 /404.html

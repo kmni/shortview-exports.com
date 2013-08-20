@@ -1,0 +1,249 @@
+/***************************************************************************
+ * @Author: NetChillies - PepUp The Web!
+ * @Website: http://www.netchillies.com/
+ * @Contact: http://www.netchillies.com/contact
+ * @Privacy Policy & Terms of Use: http://www.netchillies.com/terms
+ * @License Info: http://www.netchillies.com/license
+ ***************************************************************************/
+body{
+    background: #242424;
+   position: relative;
+    font: normal 10pt "Georgia";
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+}
+h1{ font-size: 32px; font-weight: normal; color:#ffffff; margin-bottom: 15px; }
+h2{ font-size: 32px; font-weight: bold; color:#ffffff; margin-bottom: 15px; }
+h3{ font-size: 26px; font-weight: bold; color:#ffffff; margin-bottom: 15px; }
+h4{ font-size: 22px; font-weight: bold; color:#ffffff; margin-bottom: 15px; }
+h5{ font-size: 20px; font-weight: bold; color:#ffffff; margin-bottom: 15px; }
+h6{ font-size: 18px; font-weight: bold; color:#ffffff; margin-bottom: 15px; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+    color:#ffffff;
+}
+#header-bg{
+   
+    background: url(../images/header-bg.jpg) repeat-x;
+    height: 161px;
+}
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+.header{
+      background: url(../images/header-wrapper-bg.png);
+    height: 161px;
+    position: relative;
+    z-index: 999;
+}
+.logo{
+    height: 121px;
+}
+.navigation{
+  height: 30px;
+  padding-top: 10px;
+}
+.navigation li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.navigation li a{
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 8pt;
+    font-weight: bold;
+}
+.language a{
+    color: #fff;
+    margin-right: 28px;
+    font-family: Tahoma;
+    font-size: 8pt;
+}
+#middle-header{
+    background: url(../images/middle-header-bg.jpg) repeat-x;
+    height: 322px;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+.middle-container{
+    
+    height: 320px;
+    position: relative;
+}
+.map-bg{
+    background: url(../images/map.jpg);
+    width: 935px;
+    height: 318px;
+    position: absolute;
+    left: -260px;
+    top: 1px;    
+}
+#tagline{
+    position: absolute;
+    z-index: 55;
+    padding-top: 40px;
+    width: 410px;
+}
+#tagline h3{
+    font-family: 'HelveticaNeueRegular';
+    font-size: 19pt;
+    margin-top: 20px;
+    margin-bottom: -2px;
+    padding-left: 35px;
+}
+#tagline h1{
+    font-family: 'HelveticaNeueRegular';
+    font-size: 34pt;
+    padding-left: 30px;
+    line-height: 0.9;
+}
+.mc-image-box{
+position: absolute;
+left: 340px;
+top: 18px;
+  width: 609px;
+  height: 318px;
+}
+#content-holder{
+    color:#FFFFFF;
+    margin-top: 312px;
+}
+.content{
+    background: url(../images/content-bg.jpg) repeat-y;
+    width: 940px;
+    padding:  27px 10px 72px 10px;
+    margin-bottom: 2px;
+ border-bottom: 1px solid #2d2d2d;
+}
+.left-content{
+    width: 480px;
+}
+.right-content{
+    width: 460px;
+}
+.right-content p{
+    padding-right: 30px;
+    font-size: 9pt;
+    margin-bottom: 38px;
+}
+.right-content h3{
+    font-family: Georgia;
+    font-size: 20pt;
+    color: #fff;
+    font-weight: normal;
+}
+.right-content h4{
+    color: #fff;
+    font-size: 19pt;
+    font-weight: normal;
+    margin-bottom: 2px;
+   background: url(../images/border-img.jpg)bottom repeat-x;
+   padding: 0 0 4px 5px;
+}
+.right-content ul li {
+   background: url(../images/bullut.jpg) 0 6px no-repeat;
+     margin:0 0 0px 0px;
+     padding: 0px 0 5px 5px;
+     font-size: 11pt;
+   list-style-type: none;
+}
+.right-content ul li a{
+     color: #fff;
+       background: url(../images/border-img.jpg) bottom repeat-x;
+       width: 455px;
+       display: block;
+      padding-bottom: 8px;
+      font-size: 9pt;
+}
+#footer{
+   padding-top: 10px;
+    background: url(../images/footer-bg.jpg) repeat-y;
+    height: 61px;
+    margin: 2px 0 20px 2px; 
+}
+
+#footer ul li{
+ list-style-type: none;
+ display: inline;
+text-transform: uppercase;
+}
+#footer ul li a{
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 9pt;
+    font-weight: bold;
+padding: 10px 0 0 30px; 
+}
+.copyright p{
+    color: #595959;
+    font-family: Tahoma;
+    font-size: 8pt;
+    padding-right: 20px;
+}
+.post{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 170px;
+    z-index: 999;
+    top: 161px;
+}
+.entry{
+    background: url(../images/entry-bg.jpg) repeat-y;
+    padding: 43px 0 30px 33px;
+	min-height: 350px;
+}
+.entry h5{
+    font-size: 20pt;
+   font-weight: normal;
+}
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6{
+    font-weight: normal;
+}
+.entry p{
+    margin-bottom: 15px;
+}
+
+.goog-te-gadget-simple {
+	background: transparent;
+	border: 0;
+}
+
+/*-------TUMBLR-------*/
+.tumblr_post {width:700px;margin:10px 10px 10px;padding:0px;list-style:none;font-family:Verdana, Geneva, sans-serif;border-bottom:#691507 solid 1px}
+.tumblr_post p {margin-bottom:14px;font-size:12px;color:#FFF}
+.tumblr_post a {color:#C0C0C0;text-decoration:underline;font-weight:normal}
+.tumblr_post a:hover {color:#A52A2A}
+.tumblr_title, .tumblr_link {font-size:22px;color:#FFF;margin:0 0 20px}
+.tumblr_text_post img, .tumblr_photo_post img {border:#A52A2A solid 5px;margin:10px auto;display:block;width:95%;height:auto}
+.tumblr_link {display:block;font-weight:normal}
+
+.tumblr_posts /*-------class for the Tumblr ul-------*/
+.tumblr_posts li
+
+tumblr_post
+tumblr_body
+tumblr_title
+tumblr_text_post
+tumblr_photo_post
+tumblr_photo
+tumblr_description
+tumblr_quote_post
+tumblr_quote
+tumblr_open_quote
+tumblr_close_quote
+tumblr_source
+tumblr_caption
+tumblr_link_post
+tumblr_link
+tumblr_chat_post
+tumblr_label
+tumblr_video_post
+tumblr_video
+tumblr_audio_post

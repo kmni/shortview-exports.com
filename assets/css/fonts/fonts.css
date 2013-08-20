@@ -1,0 +1,19 @@
+/***************************************************************************
+ * @Author: NetChillies - PepUp The Web!
+ * @Website: http://www.netchillies.com/
+ * @Contact: http://www.netchillies.com/contact
+ * @Privacy Policy & Terms of Use: http://www.netchillies.com/terms
+ * @License Info: http://www.netchillies.com/license
+ ***************************************************************************/
+
+@font-face {
+    font-family: 'HelveticaNeueRegular';
+    src: url('helveticaneue-ultralight-webfont.eot');
+    src: url('helveticaneue-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneue-ultralight-webfont.woff') format('woff'),
+         url('helveticaneue-ultralight-webfont.ttf') format('truetype'),
+         url('helveticaneue-ultralight-webfont.svg#HelveticaNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
