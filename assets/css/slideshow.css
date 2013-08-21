@@ -1,0 +1,12 @@
+/* Slideshow */
+.slideshow {position: relative; width: 100%; max-width: 894px; margin-bottom: 20px;}
+.slides_container {width: 100%; max-width: 894px; text-align: center; overflow: hidden; position: relative; display: none;}
+.slides_container img {display:block;}
+/* Next/prev buttons */
+.slideshow .next, .slideshow .prev {position:absolute; top: 50%; left:-24px; width:24px; height:43px; display:block; z-index:101; margin-top: -12px;}
+.slideshow .next {left: auto; right: -24px;}
+/* Pagination */
+.slideshow .pagination {margin: 26px auto 0; width: 100px;}
+.slideshow .pagination li {float:left; margin:0 1px; list-style:none;}
+.slideshow .pagination li a {display:block; width:12px; height:0; padding-top:12px; background-image:url(../images/pagination.png); background-position:0 0; float:left; overflow:hidden;}
+.slideshow .pagination li.current a {background-position:0 -12px;}
