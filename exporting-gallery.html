@@ -7,10 +7,13 @@
 <meta charset="utf-8" />
         <meta name="keywords" content="Shortview, miniature, horse, export, transport, exporting, shipping, international sales">
         <link rel="icon" href="http://www.shortviewexport.com/favicon.ico" type="image/x-icon">
- 		<link rel="shortcut icon" href="http://www.shortviewexport.com/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="http://www.shortviewexport.com/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="assets/style.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <link rel="stylesheet" href="assets/css/slideshow.css" type="text/css" media="screen" />
+        <!--script type="text/javascript" src="assets/js/jquery.min.js"></script-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
         <script type="text/javascript" src="assets/js/cycle.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.slides.min.js"></script>
         <script type="text/javascript" src="assets/js/theme.js"></script>
         <script type="text/javascript" src="assets/js/rounded.js"></script>
         <!--[if IE 7]><link rel="stylesheet" href="assets/css/ie/ie7.css" type="text/css" media="screen"><![endif]-->
@@ -54,15 +57,17 @@
                         </div><!--/navigation-links-->
                        <div class="language floatright">
                            <!-- <a href="../deutsch/index.html" title="" >Deutsch</a> -->
-							<div id="google_translate_element"></div><script>
-							function googleTranslateElementInit() {
-							  new google.translate.TranslateElement({
-							    pageLanguage: 'en',
-							    includedLanguages: 'en,fr,de,es,ja,zh-CN',
-							    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-							  }, 'google_translate_element');
-							}
-							</script><script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+							             <div id="google_translate_element"></div>
+                           <script>
+                              function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({
+                                  pageLanguage: 'en',
+                                  includedLanguages: 'en,fr,de,es,ja,zh-CN',
+                                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                                }, 'google_translate_element');
+                              }
+                            </script>
+                            <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	                      </div>
                     </div><!--/navigation-->
                 </div><!--/header-->
@@ -83,6 +88,20 @@
         <div class="wrapper"><!-- InstanceBeginEditable name="content" -->
         <div class="entry">
           <h5>Exporting:</h5>
+          <!-- SlidesJS Required: Start Slides -->
+          <!-- The container is used to define the width of the slideshow -->
+          <div class="slideshow">
+            <div class="slides_container">
+              <img src="photos/galleries/export/example-slide-1.jpg" width="894" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+              <img src="photos/galleries/export/example-slide-2.jpg" width="894" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+              <img src="photos/galleries/export/example-slide-3.jpg" width="894" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+              <img src="photos/galleries/export/example-slide-4.jpg" width="894" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+            </div>
+            <a href="#" class="prev"><img src="assets/images/arrow-prev.png" width="24" height="43" alt="&lt; Prev"></a>
+            <a href="#" class="next"><img src="assets/images/arrow-next.png" width="24" height="43" alt="Next &gt;"></a>
+          </div>
+          <!-- End SlidesJS Required: Start Slides -->
+
                   <div style="width: 640px; margin: 0px auto 15px auto;">
                     <img src="photos/galleries/export/17.jpg">
                   </div>
@@ -114,7 +133,6 @@
         </div><!--/wrapper-->
              
 </div><!--/post-->
-        
         
 </body>
 <!-- InstanceEnd --></html>
